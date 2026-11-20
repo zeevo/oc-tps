@@ -1,0 +1,17 @@
+{
+  "name": "oc-tps",
+  "version": "1.0.0",
+  "description": "Shows the model's current tokens per second in opencode, next to the prompt",
+  "keywords": ["opencode", "opencode-plugin"],
+  "license": "MIT",
+  "type": "module",
+  "oc-plugin": ["tui"],
+  "exports": {
+    "./tui": "./tui.js"
+  },
+  "peerDependencies": {
+    "@opencode-ai/plugin": "*",
+    "@opentui/solid": "*",
+    "solid-js": "*"
+  }
+}
